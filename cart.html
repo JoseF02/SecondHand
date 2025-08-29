@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito - SecondHand</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>SecondHand</h1>
+    <nav>
+      <a href="index.html">Productos</a>
+      <a href="cart.html">Carrito (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tu carrito</h2>
+    <ul id="cart-items"></ul>
+    <p class="total">Total: $<span id="total">0.00</span></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 SecondHand</p>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="cart.js"></script>
+</body>
+</html>
