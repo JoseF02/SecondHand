@@ -1,9 +1,29 @@
 # SecondHand
 
-Demo de tienda de ropa de segunda mano construida con HTML, CSS y JavaScript.
+Aplicación demo de e-commerce para ropa de segunda mano construida con Laravel y PostgreSQL.
 
-## Uso
+## Configuración
 
-Abre `index.html` en tu navegador para ver el catálogo de productos. Puedes añadir artículos al carrito y revisarlo en `cart.html`.
+1. Instalar dependencias:
+   ```bash
+   composer install
+   ```
+2. Copiar `.env.example` a `.env` y ajustar credenciales de la base de datos.
+3. Ejecutar migraciones y seeders:
+   ```bash
+   php artisan migrate
+   php artisan db:seed
+   ```
+4. Levantar el servidor de desarrollo:
+   ```bash
+   php artisan serve
+   ```
 
-El carrito se almacena en `localStorage`, por lo que no se requiere servidor ni base de datos.
+## Características
+
+- Listado de productos de ropa usados.
+- Carrito de compras gestionado en la sesión.
+
+## Licencia
+
+MIT
