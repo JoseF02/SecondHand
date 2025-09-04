@@ -56,14 +56,4 @@ html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); f
 .brand-pill { border: 1px solid var(--border); border-radius: 999px; padding: 10px 12px; text-align: center; color: var(--muted); background: #fff; }
 
 .site-footer { margin-top: 24px; border-top: 1px solid var(--border); padding: 20px; color: var(--muted); font-size: 14px; }
-@import 'tailwindcss';
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
-}
